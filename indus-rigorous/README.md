@@ -84,6 +84,30 @@ suffixing (Dravidian). `morphology.py` measures this directly on the corpus:
   Confirming or refuting those needs that inscription set, which is not in this corpus —
   it is the live open question, not something Stages 1–4 settle.
 
+**Stage 5 — the *phonotactics* defense doesn't single out Sanskrit either.**
+In the Bonta-hosted talk Yajnadevam answers "you could read it as any language" with
+phonotactics: each language has a unique transition graph, so beyond the unicity distance
+only the true language fits. But he only ever *demonstrates Sanskrit's own gaps* (greps
+Monier-Williams for non-existent patterns); he never tests whether a rival language fits
+the Indus corpus worse. `phonotactics.py` runs that missing control: for each language it
+builds a character-bigram model and blindly optimizes a sign→letter map to minimize the
+rendered corpus's per-bigram cross-entropy, normalized by the language's intrinsic entropy.
+
+```
+language               intrinsic H   best blind fit    gap
+Sanskrit  (Indo-Ary)       2.176          1.818      -0.358
+Gujarati  (Indo-Ary)       2.097          1.734      -0.362
+Telugu    (Dravidian)      2.233          1.864      -0.369
+Tamil     (Dravidian)      2.107          1.940      -0.167
+Scrambled (null)           2.560          1.666      -0.894
+```
+
+His claim predicts Sanskrit's gap ≈ 0 and rivals' large. Observed: the four real languages
+cluster within ~0.2 nats, Sanskrit sits mid-pack (Gujarati fits *better*, Telugu
+comparably), and on the normalized gap all four are effectively tied. **Phonotactic
+transition structure does not identify Sanskrit** — the same verdict as readability (Stage
+3) and morphology (Stage 4).
+
 ## Honest limitations
 - Stage 3 searches the top-80 (most constrainable) signs, not all 592.
 - The English control is transliterated into a collapsed alphabet; phonotactics differ.
@@ -91,4 +115,8 @@ suffixing (Dravidian). `morphology.py` measures this directly on the corpus:
 - Stage 4 measures sign *position*, not morpheme structure; without phonetic values it
   cannot prove a terminal marker is a suffix vs. a compound-final inflection — which is
   itself why positional data underdetermines the family.
+- Stage 5's blind homophonic optimization can game any bigram model — the scrambled null
+  reaches the lowest *absolute* fit — so absolute numbers overstate fit; only the
+  cross-language comparison (no Sanskrit advantage) is load-bearing. A full test of the
+  phonotactics claim would also enforce grammatical syntax, not just character bigrams.
 - None of this proves the script *isn't* Sanskrit — it proves the *method* can't show it is.
