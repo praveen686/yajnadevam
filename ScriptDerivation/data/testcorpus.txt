@@ -1,0 +1,116 @@
+001-an-cup:
+    H-763B  1-1-1   (.+)\1\1
+    H-210   1-1     (.+)\1
+002-a-stick:
+    Harappa 2-1-1-1 (.+)ananan 
+003-d-bow: # .+ gives aas as option
+    C-80    1-3     an(..?) 
+    H-1919  3-1     (..?)an
+    M-1637  3-2     (..?)a
+    H-1545  3-3-2   (..?)\1a
+004-a-man:
+    M-191   3-4-4   d(.+)\1 
+    H-346   4-1     (.+)an
+005-i-grain:
+    M-87A   4-3-5   ad(.+)
+    H-2244B 5-3     (.+)d
+    H-1892  1-1-5   anan(.+)
+006-d-bow:
+    C-15A   2-6-5-1 a(.)iina
+    Dholavira   6-1-5   (.)anii
+007-t-warrior:
+    H-150   6-1-7       daan(.+)
+    B-8     7-1         (.+)n
+    .       .           (.+)an
+    M-879(L2R)  1-5-4-7  anya(.+)
+008-s-seed:
+    .       .       (.)a\1ii
+    .       .       (.)ani
+    B-19       .    (.)am
+
+009-n-stalk:
+    H-1862   .   aa(.)jana
+    .   .   aa(.)a
+010-ii-long-i:
+    M-1824   1-1-5-5   anan((.+)\2)
+011-j-rain:
+    .   .   (.+)nadaa
+    .   .   (.+)\1
+    H-1862   4-4-9-11-1   aan(.+)na
+012-r-chariot:
+    .   .   ja(.)a
+    .   .   a(.)aja
+    .   .   (.)nii
+013-r-ratharvi:
+    .   .   (.+)ja
+    .   .   ja(.+)
+    .   .   ii(.+)
+014-c-four:
+    .   .   (.+)ri
+    .   .   (.+)ra
+    .   .   a(.+)ra
+    M-480   14-1-2-4-2-5   (.+)nai
+015-a-horn:
+    .   .   (.+)cara
+    .   .   (.+)jara
+    .   .   (.+)rani
+016-m-fish:
+    .   .   (.+)rana
+    .   .   ca(.+)n
+    .   .   (.+)sana
+017-v-two:
+    M-330   17-12-1-1   anara?(..?)
+   H-292A  17-12   ra(.+)
+018-r-chariotwheel:
+    .   .   ana(.)a?va
+    .       .   (.)aja
+019-b-betelleaf:
+    .   .   (.)anavii
+    M-95    19-1-4-17   (.)aanavii
+020-y-grainmerchant:
+    .   .   maan(.+)
+    M-1928   .   aja(.+)
+    .   .    maa(.+)
+021-a-hornedman:
+    C-51   .   m(.)anya
+    .   .   a(.)na
+022-n-arrow:
+    M-1206   .   cama(.)a
+    M-403   .   a(.)tara
+023-as-spider:
+    M-955   j(..)a
+    .   .   r(..)na
+    .   .   (..)na
+    L-106   23   (..)a
+024-ama-fishroof:
+    M-686   .   sa(.+)n
+    H-1085   .   ja(.+)a
+    Allahdino   1-24   (.+)
+025-n-reed:
+    M-1118A   .   (.+)ma\1
+    M-2069   .   (.+)ba
+    H-59A   .   as(.+)n
+026-n-boat:
+    M-928A   .   aa?(..?)am
+    H-550   .   a(..?)jana
+    Harappa   .   a(.+)ca
+027-t-rake:
+    H-786   .   (.)man
+    L-145   .   asva(.)ara
+028-s-ladder:
+    H-1942   .   an(..?)
+    H-1533   .   (..?)\1
+    H-2585   .   (..?)ni
+029-k-dice:
+    H-300B      .   rana(..?)
+    M-176       .   (..?)m
+030-a-curve:
+    M-1658   .   (..?)ba
+    H-1520   .   (.)jaka
+    Nuhato   .   s(.)na
+031-a-curvebold:
+    M-511   .   s(..?)na
+    H-1903   .   am(..)n
+032-a-curvedouble:
+    M-1569  .   (.+)s\1
+    M-1137  .   rav(.+)na

@@ -1,0 +1,13 @@
+# Regenerable dictionary blobs (recreated by ScriptDerivation/scripts/prove.sh)
+ScriptDerivation/xml/
+ScriptDerivation/mwxml.zip
+ScriptDerivation/mwall.txt
+ScriptDerivation/mwaux.txt
+ScriptDerivation/mw_real_backup.txt
+
+# Node / build
+**/node_modules/
+**/dist/
+
+# OS
+.DS_Store
