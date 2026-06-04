@@ -60,8 +60,35 @@ So the same method "proves" the Indus script is **Tamil** at least as strongly a
 decipherment") is the thing that is broken. This is the control experiment the entire
 debate was missing, and it falsifies Yajnadevam's correctness criterion outright.
 
+**Stage 4 — the *morphological* discriminator (paper §2.8.1) is two-edged, not decisive.**
+Yajnadevam's real argument against Dravidian is not readability but morphology (after
+Bonta 2023): that the same sign-strings recur in initial/medial/final positions, implying
+fusional multi-stem *compounding* (Sanskrit) rather than position-locked agglutinative
+suffixing (Dravidian). `morphology.py` measures this directly on the corpus:
+
+- His positive claim holds only weakly, and weakens as strings get longer — exactly where
+  his "3+-stem compound" argument needs it: of recurring length-3 substrings, **54% are
+  position-LOCKED and only 6% appear in all three positions** (length-2: 60% mobile).
+- The dominant positional signal is the *opposite* of fusional compounding: **7 signs lock
+  to final position** (sign 817 → 88% final, 820 → 77%, 861 → 70%, …) and **~21% of all
+  inscriptions end in just 5 signs.** Strong terminal markers are the classic *suffixing*
+  signature — the very feature Mahadevan and Dravidianists read as evidence *for* a
+  Dravidian/agglutinative language. (Yajnadevam concedes "the terminal jar sign is likely
+  a case marker" — i.e. an affix-like element.)
+- **Conclusion:** positional structure *underdetermines* the language family. A terminal
+  marker is compatible with both a Sanskrit compound-final inflection and a Dravidian case
+  suffix; sign positions alone cannot tell them apart. So §2.8.1 is necessary context, not
+  a discriminator — the same verdict as readability (Stage 3) and aggregate unicity.
+- *What we could not test:* the mixed Indus/Brahmi inscriptions (§2.8.3) are his one
+  genuinely *external* anchor (sign values constrained by known Brahmi, reading Sanskrit).
+  Confirming or refuting those needs that inscription set, which is not in this corpus —
+  it is the live open question, not something Stages 1–4 settle.
+
 ## Honest limitations
 - Stage 3 searches the top-80 (most constrainable) signs, not all 592.
 - The English control is transliterated into a collapsed alphabet; phonotactics differ.
 - A genuine Old-Tamil/Dravidian lexicon would be a better second control than English.
+- Stage 4 measures sign *position*, not morpheme structure; without phonetic values it
+  cannot prove a terminal marker is a suffix vs. a compound-final inflection — which is
+  itself why positional data underdetermines the family.
 - None of this proves the script *isn't* Sanskrit — it proves the *method* can't show it is.

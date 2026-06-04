@@ -1,0 +1,8 @@
+dictionary,family,readable_pct_min_word_len_2,readable_pct_min_word_len_3,dictionary_entries
+Tamil,Dravidian,100.0,98.5,~80000
+Sanskrit,Indo-Aryan,100.0,95.7,~134000
+Gujarati,Indo-Aryan,100.0,95.7,
+Telugu,Dravidian,100.0,91.1,
+English,control,100.0,75.1,
+Scrambled,null,100.0,47.6,
+Random,null,48.8,30.3,
